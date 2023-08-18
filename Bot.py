@@ -34,7 +34,7 @@ async def start(event):
     if not event.is_private:
         return await event.respond("ɪ ᴀᴍ ᴀʟɪᴠᴇ 🥺")
     await event.reply(
-        "━━━━━━━━━━━━━━━━━━━━━━━━\n\n✪ i am neko to mention all the group members in telegram\n✪ thanks for using run /help..\n\n┏━━━━━━━━━━━━━━━━━┓\n┣★ owner    : [Neko](https://t.me/OwnNeko)\n┣★ updates › : [NekoLocql](https://t.me/NekoLocql)┓\n┣★  Group [NekoMenfess](https://t.meNekoMemfess)\n┗━━━━━━━━━━━━━━━━━┛\n\n💞 if you have any ǫuestions then\ndm to my [owner](https://t.me/OwnNeko) ...\n\n━━━━━━━━━━━━━━━━━━━━━━━━",        link_preview=False,
+        "━━━━━━━━━━━━━━━━━━━━━━━━\n\n✪ i am neko to mention all the group members in telegram\n✪ thanks for using run /help..\n\n┏━━━━━━━━━━━━━━━━━┓\n┣★ owner    : [Neko](https://t.me/OwnNeko)\n┣★ updates › : [NekoLocal](https://t.me/NekoLocal)┓\n┣★  Group [NekoMenfess](https://t.meNekoMemfess)\n┗━━━━━━━━━━━━━━━━━┛\n\n💞 if you have any ǫuestions then\ndm to my [owner](https://t.me/OwnNeko) ...\n\n━━━━━━━━━━━━━━━━━━━━━━━━",        link_preview=False,
         buttons=(
             [
                 Button.url(
