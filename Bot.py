@@ -52,8 +52,8 @@ async def start(event):
 async def help(event):
     chat_id = event.chat_id
     if not event.is_private:
-        return await event.respond("ᴅᴇᴀʀ sᴛᴀʀᴛ ᴍᴇ ɪɴ ᴘᴍ ᴛᴏ ᴜsᴇ ᴛʜɪs ᴄᴏᴍᴍᴀɴғ 🥺")
-    helptext = "✪ ʜᴇʟᴘ ᴍᴇɴᴜ ᴏғ ᴀʟᴇxᴀ ᴍᴇɴᴛɪᴏɴ\n\n✪ ᴄᴏᴍᴍᴀɴᴅ: /mentionall\n✪ ᴄᴏᴍᴍᴀɴᴅ: /cancel ᴛᴏ ᴄᴀɴᴄᴇʟ ɢᴏɪɴɢ ᴏɴ ᴘʀᴏᴄᴇss.\n✪ ᴄᴏᴍᴍᴀɴᴅ /admin ᴛᴏ ᴍᴇɴᴛɪᴏɴ ᴀʟʟ ᴀᴅᴍɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ\n✪ Yᴏᴜ ᴄᴀɴ ᴜsᴇ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ ᴡɪᴛʜ ᴛᴇxᴛ ᴡʜᴀᴛ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ᴍᴇɴᴛɪᴏɴ ᴏᴛʜᴇʀs.\n✪ `Example: /mentionall Good Morning!`\n✪ Yᴏᴜ ᴄᴀɴ ʏᴏᴜ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ ᴀs ᴀ ʀᴇᴘʟʏ ᴛᴏ ᴀɴʏ ᴍᴇssᴀɢᴇ. Bᴏᴛ ᴡɪʟʟ ᴛᴀɢ ᴜsᴇʀs ᴛᴏ ᴛʜᴀᴛ ʀᴇᴘʟɪᴇᴅ ᴍᴇsssᴀɢᴇ."
+        return await event.respond("ᴅɪᴋᴇᴛɪᴋ ᴍᴜʟᴀɪ ᴅᴀʀɪ ᴘᴇʀᴛᴀɴʏᴀᴀɴ ᴅɪ ᴘʀɪᴠᴀᴛᴇ ᴜɴᴛᴜᴋ ᴍᴇɴɢɢᴜɴᴀᴋᴀɴ ᴄᴏᴍᴍᴀɴᴅ ɪɴɪ 🥺")
+    helptext = "✪ ᴍᴇɴᴜ ʙᴀntᴜᴀɴ ᴛᴇɴᴛᴀɴɢ ᴄᴏᴍᴍᴀɴᴅ\n\n✪ ᴄᴏᴍᴍᴀɴᴅ: /mentionall\n✪ ᴄᴏᴍᴍᴀɴᴅ: /cancel ᴜɴᴛᴜ ᴍᴇɴɢʜᴇᴛɪᴋᴀɴ ᴘʀᴏsᴇs.\n✪ ᴄᴏᴍᴍᴀɴᴅ /admin ᴜɴᴛᴜᴋ ᴍᴇɴɢɢᴜɴᴀᴋᴀɴ ᴍᴇɴᴛɪᴏɴ ᴀᴅᴍɪɴ ɢʀᴜᴘ ᴀɴᴅᴀ\n✪ ᴀɴᴅᴀ ʙɪsᴀ ᴍᴇɴɢɢᴜɴᴀᴋᴀɴ ᴄᴏᴍᴍᴀɴᴅ ɪɴɪ ᴅᴇɴɢᴀɴ ᴛᴇᴋs ᴡʜᴀᴛsᴀᴘᴘ ʏᴀɴɢ ᴀɴᴅᴀ ɪɴɢɪɴᴋᴀɴ ᴜɴᴛᴜᴋ ᴍᴇɴᴛɪᴏɴ ᴏʀᴀɴ ʟᴀɪɴ.\n✪ `Contoh: /mentionall Selamat Pagi!`\n✪ ᴀɴᴅᴀ ʙɪsᴀ ᴍᴇɴɢɢᴜɴᴀᴋᴀɴ ᴄᴏᴍᴍᴀɴᴅ ɪɴɪ sᴇʙᴀɢᴀɪ ʙᴀʟᴀsᴀɴ ᴋᴇᴘᴀᴅᴀ ᴍᴇssᴀɢᴇ ᴍᴀɴᴀᴘᴜɴ. ʙᴏᴛ ᴀᴋᴀɴ ᴍᴇɴᴛᴀɢɪ ᴘᴇɴɢɢᴜɴᴀ ʏᴀɴɢ ᴅɪʙᴀʟᴀsɪ ᴅᴀʀɪ ᴍᴇssᴀɢᴇ ᴛᴇʀsᴇʙᴜᴛ."
     await event.reply(
         helptext,
         link_preview=False,
@@ -65,13 +65,12 @@ async def help(event):
         ),
     )
 
-
 @client.on(events.NewMessage(pattern="^/owner$"))
 async def help(event):
     chat_id = event.chat_id
     if not event.is_private:
-        return await event.respond("ᴅᴇᴀʀ sᴛᴀʀᴛ ᴍᴇ ɪɴ ᴘᴍ ᴛᴏ ᴜsᴇ ᴛʜɪs ᴄᴏᴍᴍᴀɴғ 🥺")
-    helptext = "✪ ᴏᴡɴᴇʀ ᴍᴇɴᴜ ᴏғ ᴀʟᴇxᴀ ᴍᴇɴᴛɪᴏɴ\n\n✪ ᴍʏ ᴏᴡɴᴇʀ ɪs [Neko](https://t.me/OwnNeko)\n✪ ᴏғғɪᴄɪᴀʟ ᴍᴇᴍʙᴇʀ ᴏғ ʀᴏᴄᴋs\n✪ ʏᴏᴜᴛᴜʙᴇ [ᴄʜᴀɴɴᴇʟ](https://t.me/NekoMenfess)\n✪ ғᴜᴛᴜʀᴇ ᴀɴᴇsᴛʜᴇᴛɪᴄ."
+        return await event.respond("ᴅɪᴋᴇᴛɪᴋ ᴍᴜʟᴀɪ ᴅᴀʀɪ ᴘᴇʀᴛᴀɴʏᴀᴀɴ ᴅɪ ᴘʀɪᴠᴀᴛᴇ ᴜɴᴛᴜᴋ ᴍᴇɴɢɢᴜɴᴀᴋᴀɴ ᴄᴏᴍᴍᴀɴᴅ ɪɴɪ 🥺")
+    helptext = "✪ ᴍᴇɴᴜ ʙᴀᴛᴀs ᴅᴀʀɪ ᴀʟᴇxᴀ ᴍᴇɴᴛɪᴏɴ\n\n✪ ᴘᴇᴍɪʟɪᴋ sᴀʏᴀ [Neko](https://t.me/OwnNeko)\n✪ ᴀɴɢɢᴏᴛᴀ ʀᴇsᴍɪ [ʀᴏᴄᴋs](https://t.me/NekoMenfess)\n✪ ʏᴏᴜᴛᴜʙᴇ [ᴄʜᴀɴɴᴇʟ](https://t.me/NekoMenfess)\n✪ ᴀɴᴇsᴛʜᴇᴛɪᴄ ᴍᴀsᴀ ᴅᴇᴘᴀɴ ᴍᴀᴛᴀ."
     await event.reply(
         helptext,
         link_preview=False,
@@ -83,13 +82,12 @@ async def help(event):
         ),
     )
 
-
 @client.on(events.NewMessage(pattern="^/mentionall ?(.*)"))
 async def mentionall(event):
     chat_id = event.chat_id
     if event.is_private:
         return await event.respond(
-            "ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ ᴄᴀɴ ʙᴇ ᴜsᴇ ɪɴ ɢʀᴏᴜᴘs ᴀɴᴅ ᴄʜᴀɴɴᴇʟs"
+            "ᴄᴏᴍᴍᴀɴᴅ ɪɴɪ ʙɪsᴀ ᴅɪɢᴜɴᴀᴋᴀɴ ʜᴀɴʏᴀ ᴅɪ ɢʀᴜᴘ ᴅᴀɴ ᴄʜᴀɴɴᴇʟ"
         )
 
     is_admin = False
@@ -103,10 +101,10 @@ async def mentionall(event):
         ):
             is_admin = True
     if not is_admin:
-        return await event.respond("ᴏɴʟʏ ᴀᴅᴍɪɴs ᴄᴀɴ ᴍᴇɴᴛɪᴏɴ ᴀʟʟ")
+        return await event.respond("ʜᴀɴʏᴀ ᴀᴅᴍɪɴs ʏᴀɴɢ ʙɪsᴀ ᴍᴇɴɢɢᴜɴᴀᴋᴀɴ ᴄᴏᴍᴍᴀɴᴅ ɪɴɪ ᴜɴᴛᴜᴋ ᴍᴇɴᴛɪᴏɴ sᴇᴍᴜᴀ")
 
     if event.pattern_match.group(1) and event.is_reply:
-        return await event.respond("ɢɪᴠᴇ ᴍᴇ ᴏɴᴇ ᴀʀɢᴜᴍᴇɴᴛ")
+        return await event.respond("ʙᴇʀɪᴋᴀɴʟᴀʜ ᴅᴀɴᴀ ʀɢᴜᴍᴇɴᴛ")
     elif event.pattern_match.group(1):
         mode = "text_on_cmd"
         msg = event.pattern_match.group(1)
@@ -115,12 +113,13 @@ async def mentionall(event):
         msg = await event.get_reply_message()
         if msg == None:
             return await event.respond(
-                "ɪ ᴄᴀɴ'ᴛ ᴍᴇɴᴛɪᴏɴ ᴍᴇᴍʙᴇʀs ꜰᴏʀ ᴏʟᴅᴇʀ ᴍᴇssᴀɢᴇs! (ᴍᴇssᴀɢᴇs ᴡʜɪᴄʜ ᴀʀᴇ sᴇɴᴛ ʙᴇꜰᴏʀᴇ ɪ'ᴍ ᴀᴅᴅᴇᴅ ᴛᴏ ɢʀᴏᴜᴘ)"
+                "ᴀᴋᴜ ᴛɪᴅᴀᴋ ᴅᴀᴘᴀᴛ ᴍᴇɴɢᴇᴍᴇɴᴛɪᴏɴ ᴍᴇᴍʙᴇʀs ʙᴇʀᴅᴀsᴀʀᴋᴀɴ ᴘᴇsᴀɴ ʏᴀɴɢ ᴅɪᴋɪʀɪᴍ ᴘᴀᴅᴀ ᴍᴀsᴀʟᴀʜ ᴘᴇsᴀɴ ʏᴀɴɢ ᴅɪᴋɪʀɪᴍ ʙᴇꜰᴏʀᴇ ʙᴏᴛ ᴅɪᴛᴀᴍʙᴀʜᴋᴀɴ ᴋᴇ ɢʀᴜᴘ"
             )
     else:
         return await event.respond(
-            "ʀᴇᴘʟʏ ᴛᴏ ᴀ ᴍᴇssᴀɢᴇ ᴏʀ ɢɪᴠᴇ ᴍᴇ sᴏᴍᴇ ᴛᴇxᴛ ᴛᴏ ᴍᴇɴᴛɪᴏɴ ᴏᴛʜᴇʀs"
+            "ʙᴀʟᴀsɪ ᴋᴇᴘᴀᴅᴀ ᴍᴇssᴀɢᴇ ᴀᴛᴀᴜ ʙᴇʀɪᴋᴀɴʟᴀʜ ᴘᴀᴅᴀ ᴋᴜɴᴛᴜʟᴀɴ ᴜɴᴛᴜᴋ ᴍᴇɴɢɢᴜɴᴀᴋᴀɴ ᴄᴏᴍᴍᴀɴᴅ ɪɴɪ ᴜɴᴛᴜᴋ ᴍᴇɴᴛɪᴏɴ ᴏʀᴀɴ ʟᴀɪɴ"
         )
+
 
     spam_chats.append(chat_id)
     usrnum = 0
