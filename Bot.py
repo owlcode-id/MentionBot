@@ -1,9 +1,3 @@
-# A Powerful Music And Management Bot
-# Property Of Rocks Indian Largest Chatting Group
-# Rocks © @Dr_Asad_Ali © Rocks
-# Owner Asad Ali + Kattai Massom + Abhimanyu Singh
-
-
 import os, logging, asyncio
 from telethon import Button
 from telethon import TelegramClient, events
@@ -226,8 +220,3 @@ async def cancel_spam(event):
 print(">> ASAD ALEXA WORKING <<")
 client.run_until_disconnected()
 
-
-# A Powerful Music And Management Bot
-# Property Of Rocks Indian Largest Chatting Group
-# Rocks © @Dr_Asad_Ali © Rocks
-# Owner Asad Ali + Harshit Sharma + Abhimanyu Singh + Krishna Ki Diwani
