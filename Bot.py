@@ -9,7 +9,6 @@ from telethon.errors import UserNotParticipantError
 from pyrogram import Client, filters
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 
-
 logging.basicConfig(
     level=logging.INFO, format="%(name)s - [%(levelname)s] - %(message)s"
 )
@@ -21,31 +20,32 @@ bot_token = os.environ.get("TOKEN", "")
 client = TelegramClient("client", api_id, api_hash).start(bot_token=bot_token)
 spam_chats = []
 
-
 @client.on(events.NewMessage(pattern="^/start$"))
 async def start(event):
     chat_id = event.chat_id
     if not event.is_private:
         return await event.respond("ɪ ᴀᴍ ᴀʟɪᴠᴇ 🥺")
     await event.reply(
-        "━━━━━━━━━━━━━━━━━━━━━━━━\n\n✪ i am neko to mention all the group members in telegram\n✪ thanks for using run /help..\n\n┏━━━━━━━━━━━━━━━━━┓\n┣★ owner    : [Neko](https://t.me/OwnNeko)\n┣★ updates › : [NekoLocal](https://t.me/NekoLocal)┓\n┣★  Group [NekoMenfess](https://t.meNekoMemfess)\n┗━━━━━━━━━━━━━━━━━┛\n\n💞 if you have any ǫuestions then\ndm to my [owner](https://t.me/OwnNeko) ...\n\n━━━━━━━━━━━━━━━━━━━━━━━━",        link_preview=False,
+        "━━━━━━━━━━━━━━━━━━━━━━━━\n\n✪ Saya adalah Neko, untuk menyebutkan semua anggota grup di Telegram\n✪ Terima kasih telah menggunakan, jalankan /help..\n\n┏━━━━━━━━━━━━━━━━━┓\n┣★ Pemilik    : [Neko](https://t.me/OwnNeko)\n┣★ Perbarui › : [NekoLocal](https://t.me/NekoLocal)┓\n┣★  Grup [NekoMenfess](https://t.meNekoMemfess)\n┗━━━━━━━━━━━━━━━━━┛\n\n💞 Jika Anda memiliki pertanyaan,\nkirim pesan ke [pemilik saya](https://t.me/OwnNeko) ...\n\n━━━━━━━━━━━━━━━━━━━━━━━━",
+        link_preview=False,
         buttons=(
             [
                 Button.url(
-                    "📍Tambahkan Ke Group",
+                    "📍Tambahkan Ke Grup",
                     "https://t.me/NekoFilterBot?startgroup=true",
                 ),
             ],
             [
-                Button.url("📌 Group", "https://t.me/NekoMenfessChat"),
+                Button.url("📌 Grup", "https://t.me/NekoMenfessChat"),
                 Button.url("📌 Channel", "https://t.me/NekoMenfess"),
             ],
             [
                 Button.url("📌 NekoStore", "https://t.me/NekoLocal"),
-                Button.url("😼 Owner", "https://t.me/OwnNeko"),
+                Button.url("😼 Pemilik", "https://t.me/OwnNeko"),
             ],
         ),
     )
+
 
 
 @client.on(events.NewMessage(pattern="^/help$"))
